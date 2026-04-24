@@ -6,7 +6,7 @@ import uuid
 from flask import Flask, request, Response, jsonify, render_template, redirect, url_for, session
 from flask_cors import CORS
 from dotenv import load_dotenv
-#   
+#  
 # Load environment variables first
 load_dotenv()
 
